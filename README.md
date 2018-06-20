@@ -16,6 +16,6 @@ To run this chat app:
 - Back end: NodeJS, Express, Socket.io
 
 ## Tests
-To run tests: `yarn test` or `npm test`
-For coverage: `yarn test --coverage` or `npm test --coverage`
-See the /coverage/lcov-report/index.html file for more info on code coverage.
+- To run tests: `yarn test` or `npm test`
+- For coverage: `yarn test --coverage` or `npm test --coverage`
+  - See the /coverage/lcov-report/index.html file for more info on code coverage.
