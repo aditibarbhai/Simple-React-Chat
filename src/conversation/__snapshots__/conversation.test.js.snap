@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Conversation should render without errors 1`] = `
+<div
+  className="private-conversation"
+>
+  <header
+    className="MuiPaper-root-9 MuiPaper-elevation4-15 MuiAppBar-root-1 MuiAppBar-positionFixed-2 MuiAppBar-colorPrimary-7 mui-fixed header"
+  >
+    <div
+      className="MuiToolbar-root-36 MuiToolbar-gutters-37"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-38 face-icon"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <g>
+          <path
+            d="M9 11.75c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zm6 0c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-.29.02-.58.05-.86 2.36-1.05 4.23-2.98 5.21-5.37C11.07 8.33 14.05 10 17.42 10c.78 0 1.53-.09 2.25-.26.21.71.33 1.47.33 2.26 0 4.41-3.59 8-8 8z"
+          />
+        </g>
+      </svg>
+      <h2
+        className="MuiTypography-root-44 MuiTypography-title-50 MuiTypography-colorInherit-63"
+      >
+        testUser
+      </h2>
+    </div>
+  </header>
+  <div
+    className="messages"
+  >
+    <ul
+      className="MuiList-root-68 MuiList-dense-70 MuiList-padding-69"
+    />
+  </div>
+  <div
+    className="conversation-form-wrapper"
+  >
+    <form
+      className="private-conversation-form"
+    >
+      <div
+        className="MuiFormControl-root-72 message-input"
+      >
+        <div
+          className="MuiInput-root-76 MuiInput-formControl-77 MuiInput-underline-80"
+        >
+          <input
+            aria-invalid={false}
+            aria-required={false}
+            autoComplete={undefined}
+            autoFocus={undefined}
+            className="MuiInput-input-84"
+            defaultValue={undefined}
+            disabled={false}
+            id={undefined}
+            name={undefined}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={undefined}
+            onKeyUp={undefined}
+            placeholder={undefined}
+            readOnly={undefined}
+            required={undefined}
+            rows={undefined}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="MuiFormControl-root-72 send-message"
+      >
+        <button
+          className="MuiButtonBase-root-111 MuiButton-root-89 MuiButton-contained-98 MuiButton-containedPrimary-99 MuiButton-raised-101 MuiButton-raisedPrimary-102 send-button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="submit"
+        >
+          <span
+            className="MuiButton-label-90"
+          >
+            Send
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-38"
+              color={undefined}
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <g>
+                <path
+                  d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                />
+              </g>
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root-114"
+          />
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

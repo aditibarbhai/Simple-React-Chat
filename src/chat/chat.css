@@ -1,0 +1,42 @@
+.error {
+    color: #f44336;
+}
+
+.selected {
+    background-color: #00000014;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.create-username-wrapper {
+    margin: auto;
+    text-align: center;
+    width: 50vw;
+}
+
+#createUsername .form-control {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.users {
+    background-color: #eeeeee;
+    float: left;
+    height: 99vh;
+    width: 20vw;
+    padding-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.users .users-list {
+    background-color: #ffffff;
+}
+
+.conversation {
+    float: right;
+    height: 99vh;
+    width: 80vw;
+}

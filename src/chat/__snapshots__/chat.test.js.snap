@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat should render create user form if no username 1`] = `
+<div>
+  <div
+    className="create-username-wrapper"
+  >
+    <h1>
+       Welcome to SimpleChat! 
+    </h1>
+    <p>
+       To get started, create a username: 
+    </p>
+    <form
+      id="createUsername"
+    >
+      <div
+        className="MuiFormControl-root-62 form-control"
+      >
+        <div
+          className="MuiInput-root-66 MuiInput-error-71 MuiInput-formControl-67 MuiInput-underline-70 full-width"
+        >
+          <div
+            className="MuiInputAdornment-root-79 MuiInputAdornment-positionStart-80"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-19"
+              color={undefined}
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <g>
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"
+                />
+              </g>
+            </svg>
+          </div>
+          <input
+            aria-invalid={true}
+            aria-required={false}
+            autoComplete={undefined}
+            autoFocus={undefined}
+            className="MuiInput-input-74"
+            defaultValue={undefined}
+            disabled={false}
+            id="username"
+            name={undefined}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={undefined}
+            onKeyUp={undefined}
+            placeholder={undefined}
+            readOnly={undefined}
+            required={undefined}
+            rows={undefined}
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          className="MuiFormHelperText-root-82 MuiFormHelperText-error-83"
+        >
+          
+        </p>
+      </div>
+      <div
+        className="MuiFormControl-root-62 form-control"
+      >
+        <button
+          className="MuiButtonBase-root-15 MuiButton-root-86 MuiButton-flat-90 MuiButton-outlined-93 full-width"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="submit"
+        >
+          <span
+            className="MuiButton-label-87"
+          >
+            Create
+          </span>
+          <span
+            className="MuiTouchRipple-root-55"
+          />
+        </button>
+      </div>
+    </form>
+  </div>
+  
+</div>
+`;
+
+exports[`Chat should render without errors 1`] = `
+<div>
+  <div
+    className="chat-wrapper"
+  >
+    <div
+      className="users"
+    >
+      <h2>
+        Connected Users 
+      </h2>
+      <nav
+        className="MuiList-root-1 MuiList-padding-2 users-list"
+      >
+        <div
+          className="MuiButtonBase-root-15 MuiListItem-root-5 MuiListItem-default-8 MuiListItem-gutters-12 MuiListItem-button-13 user selected"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          selected={true}
+          tabIndex="0"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-19 MuiListItemIcon-root-18"
+            color={undefined}
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <g>
+              <path
+                d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+              />
+            </g>
+          </svg>
+          <div
+            className="MuiListItemText-root-25"
+            onClick={[Function]}
+          >
+            <span
+              className="MuiTypography-root-31 MuiTypography-subheading-38 MuiListItemText-primary-28"
+            >
+              testUser
+            </span>
+          </div>
+          <span
+            className="MuiTouchRipple-root-55"
+          />
+        </div>
+      </nav>
+    </div>
+    <div
+      className="conversation"
+    >
+      <Conversation />
+    </div>
+  </div>
+</div>
+`;
